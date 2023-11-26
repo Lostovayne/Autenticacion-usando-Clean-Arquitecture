@@ -5,7 +5,6 @@ import { LoginUserDto } from "../../domain/dtos/auth/login-user.dto";
 
 export class AuthController {
     constructor(private readonly authService: AuthService) {}
-
     private handleError = (error: unknown, res: Response) => {
         if (error instanceof CustomError) {
             return res.status(error.statusCode).json({ error: error.message });
