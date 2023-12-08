@@ -18,7 +18,6 @@ export class AuthService {
             await user.save();
 
             // Enviar email de confirmacion
-
             this.sendEmailValidationLink(user.email);
 
             const { password, ...userEntity } = UserEntity.fromObject(user);
