@@ -11,7 +11,12 @@
 
 
     ## Variables de entorno
-- `PORT`: 3000
-- `MONGO_URL`: mongodb://mongo-user:123456@localhost:27017
-- `MONGO_DB_NAME`: mystore
+- PORT=3000
+- MONGO_URL=mongodb://******:*******@localhost:27017
+- MONGO_DB_NAME=mystore
+- JWT_SEED=Loquesea
 
+- MAILER_SERVICE=gmail
+- MAILER_EMAIL=correo@gmail.com
+- MAILER_SECRET_KEY=contraseña
+- WEBSERVICE_URL=https://f65a-2803-c600-810c-e970-f80f-5309-ab56-a7d6.ngrok-free.app/api
