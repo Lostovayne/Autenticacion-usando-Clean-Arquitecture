@@ -16,6 +16,7 @@
 - MONGO_DB_NAME=mystore
 - JWT_SEED=Loquesea
 
+- SEND_EMAIL=false 
 - MAILER_SERVICE=gmail
 - MAILER_EMAIL=correo@gmail.com
 - MAILER_SECRET_KEY=contraseña
