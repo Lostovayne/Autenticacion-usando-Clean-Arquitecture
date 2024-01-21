@@ -7,6 +7,7 @@
 4. Ejecutar `npm run dev` para levantar el proyecto en modo desarrollo
 5. Crear documento .env
 6. Correr el gnrok `ngrok http 3000`
+7. Abrir la URL de tu navegador generada por gnrok
 
 
 
